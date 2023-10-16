@@ -1,0 +1,18 @@
+Stable Diffusion Demo
+
+On 3rd October 2023 I attended a meeting with the Nottingham Data Science and AI Meetup Group.
+The meeting was to discuss and demonstrate the generative AI capabilities in the new SDXL (Stable Diffusion XL) package by Stability AI.
+Link: https://replicate.com/blog/run-sdxl-with-an-api
+It is hosted as a cloud-based service by replicate.com
+This allows generative AI models to be used to generate images from text prompts, among other things.
+
+The demo is best seen when you have signed up for an account on Replicate and then the client library can be accessed through an API using a registered token. Models are accessible through Python, Node.js, Swift, Elixir and Go clients. There are some other languages covered by community maintained clients for Replicate (C#, Ruby, Rails, other JS).
+
+As described in the Meetup notes, at https://www.meetup.com/nottingham-artificial-intelligence-meetup/events/294971398/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJGQ4ODMzMmYzLThjZGMtNGM1My04MTBkLWMzOThiZDY2ODg5MQ%253D%253D&_af=event&_af_eid=294971398
+...
+
+One option is to make use of the pre-built models available on Replicate.com. Alternatively you can create and fine-tune your own Stable Diffusion model and use it to generate images based on your own provided training set.
+
+Here's a blog on how to fine-tune SDXL with your own images: https://replicate.com/blog/fine-tune-sdxl
+
+
